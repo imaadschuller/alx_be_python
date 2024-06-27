@@ -13,6 +13,16 @@ match priority:
     case 'low':
         reminder = f"Low priority task: {task}"
 
+if priority == 'high':
+    reminder = f"High priority task: {task}"
+elif priority == 'medium':
+    reminder = f"Medium priority task: {task}"
+elif priority == 'low':
+    reminder = f"Low priority task: {task}"
+else:
+    reminder = f"Unknown priority task: {task}"
+
+# Check if task is time-bound
 
     if time_bound == 'yes':
         reminder += " that requires immediate attention today!"
