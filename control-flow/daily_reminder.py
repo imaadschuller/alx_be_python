@@ -28,5 +28,5 @@ else:
         reminder += " that requires immediate attention today!"
 
 # Provide a customized reminder
-print("Reminder:" {reminder})
+print("Reminder: {reminder}")
 
