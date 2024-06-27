@@ -1,6 +1,6 @@
 # Prompt the user for the size of pattern
 
-size = int(input("Enter the size of the pattern (positive integer): "))
+size = int(input("Enter the size of the pattern:"))
 
 # Draw the pattern using nested loops
 row = 0
