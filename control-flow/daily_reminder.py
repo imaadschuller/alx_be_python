@@ -18,5 +18,5 @@ match priority:
         reminder += " that requires immediate attention today!"
 
 # Provide a customized reminder
-print(f"Reminder: {reminder}")
+print("Reminder:" {reminder})
 
